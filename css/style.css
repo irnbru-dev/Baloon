@@ -84,7 +84,6 @@ div[class*="col"] {  float: left; padding: 15px; box-sizing: border-box;}
 	color: #fff;
 	border-radius: 5px;
 	text-align: center;
-
 }
 
 /*ALL ABOUT TITLES*/
@@ -115,42 +114,35 @@ div[class*="col"] {  float: left; padding: 15px; box-sizing: border-box;}
 
 .main-header,
 .main-footer {
-	padding: 15px 0;
+	text-align: center;
+	padding: 5px 0;
 	background-color: #444444;
 }
 .logo {
-	float: left;
-	width: 20%;
-	padding: 10px;
+	margin-top: 5px;
 }
-.logo a{
-	text-decoration: none;
+.logo a {
 	color: #fff;
+	padding: 5px;
+	text-decoration: none;
 	font-size: 18px;
 }
-.header-nav,
-.footer-nav {
-  float: right;
-  width: 75%;
-  text-align: right;
-}
-.header-nav li,
-.footer-nav li{
-  display: inline-block;
-  border: 1px solid transparent;
-}
-
 .header-nav a,
 .footer-nav a{
-  display: inline-block;
-  padding: 10px;
-  color: #fff;
-  text-decoration: none;
-  font-size: 18px;
+	color: #fff;
+	padding: 5px 10px;
+	text-decoration: none;
+	font-size: 18px;
+	border: 1px solid transparent;
+	display: inline-block;
 }
-.header-nav li:hover,
-.footer-nav li:hover {
+.main-header a:hover,
+.main-footer a:hover {
 	border-color: #fff;
+}
+.header-nav li,
+.footer-nav li {
+	display: inline-block;
 }
 
 /*PROMO*/
@@ -158,7 +150,7 @@ div[class*="col"] {  float: left; padding: 15px; box-sizing: border-box;}
 .promo {
 	text-align: center;
 	padding-top: 185px;
-	padding-bottom: 150px;
+	padding-bottom: 30px;
 	background-image: url(../img/baloons-promobg.jpg);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
@@ -260,19 +252,101 @@ div[class*="col"] {  float: left; padding: 15px; box-sizing: border-box;}
 .gallery-item:last-of-type:after:hover {
 	border-color: #727272;
 }
-/*PHOTO-HOW*/
+/*HOW*/
 
-.photo-how-title {
-	text-align: center;
+.how-to-fly {
+  height: 702px;
+  background-image: url(../img/Green-Mountain-Photo-Wallpaper-HD-Resolution.jpg);
+  background-size: 100%;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
 }
-.photo-how {
-	background-image: url(../img/Green-Mountain-Photo-Wallpaper-HD-Resolution.jpg);
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	padding: 200px 0;
+.how-to-fly .container {
+  text-align: center;
+  position: relative;
+  height: 100%;
 }
-
-
+.ho
+.how-to-fly h2 {
+  font-size: 30px;
+  font-weight: 500;
+  padding-top: 35px;
+  padding-bottom: 15px;
+  margin-bottom: 45px;
+  background-image: url(../img/);
+  background-size: 60px 6px;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-position: 50% 100%;
+  margin-left: 5px;
+}
+.how-to-fly h2:after {
+  content: '';
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url(../img/Path.png);
+  width: 1140px;
+  height: 175px;
+  position: absolute;
+  top: 320px;
+  left: 30px;
+}
+.how-to-fly p {
+  font-size: 18px;
+  font-weight: bold;
+  width: 98px;
+  height: 130px;
+  position: absolute;
+}
+.how-to-fly p:after {
+  font-size: 22px;
+  color: #fff;
+  font-weight: normal;
+  padding-top: 15px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 44px 65px;
+  background-image: url(../img/baloon.png);
+  background-position: 50% 35%;
+  width: 100%;
+  height: 75px;
+}
+.how-to-fly-item-1 {
+  bottom: 240px;
+  left: 10px;
+}
+.how-to-fly-item-1:after {
+  content: "1";
+}
+.how-to-fly-item-2 {
+  bottom: 300px;
+  left: 290px;
+}
+.how-to-fly-item-2:after {
+  content: "2";
+}
+.how-to-fly-item-3 {
+  bottom: 410px;
+  left: 550px;
+}
+.how-to-fly-item-3:after {
+  content: "3";
+}
+.how-to-fly-item-4 {
+  bottom: 290px;
+  right: 290px;
+}
+.how-to-fly-item-4:after {
+  content: "4";
+}
+.how-to-fly-item-5 {
+  bottom: 240px;
+  right: 20px;
+}
+.how-to-fly-item-5:after {
+  content: "5";
+}
 /*COUNTDOWN*/
 
 /*.countdown {
