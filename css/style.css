@@ -275,7 +275,7 @@ div[class*="col"] {  float: left; padding: 15px; box-sizing: border-box;}
 
 /*COUNTDOWN*/
 
-.countdown {
+/*.countdown {
 	background-color: #f2f2f2;
 	padding: 35px 0;
 }
@@ -292,7 +292,41 @@ div[class*="col"] {  float: left; padding: 15px; box-sizing: border-box;}
 .countdown span:nth-child(n+2) {
 	padding-left: 10px;
 	font-weight: bold;
+}*/
+
+.timer-title, 
+.measure, 
+.days, 
+.hours, 
+.minutes, 
+.seconds{ 
+float: left; 
+color: #26668e; 
+font-weight: bold; 
+font-size: 32px; 
+
+} 
+
+.measure:before, 
+.days:before, 
+.hours:before, 
+.minutes:before, 
+.seconds:before{ 
+content:"\00a0\00a0"; 
+} 
+.countdown{ 
+background-color: #f2f2f2; 
+} 
+.count{ 
+float: left; 
+} 
+.measure-days, 
+.measure-hours, 
+.measure-minutes, 
+.measure-seconds{ 
+font-size: 22px; 
 }
+
 /*PRICE-COUNT */
 
 .price-count {
