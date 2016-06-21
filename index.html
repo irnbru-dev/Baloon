@@ -6,6 +6,11 @@
 
 	<link rel="stylesheet" href="css/style.css">
 
+	<!-- Подключение шрифта Roboto -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,400italic,500&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
 </head>
 <body>
 
@@ -30,65 +35,96 @@
 		</div>
 	</header>
 
-	<div class="promo">
+	<div class="promo row">
 	  <div class="container">
-		<h1 class="promo-slogan">Организация полетов на воздушных шарах</h1>
-		<a class="btn btn-detail">Подробнее</a>
+	   <h1 class="promo-slogan col-8 col-offset-2">Организация полетов на воздушных шарах</h1>
+		<button class="btn btn-detail"><a href="#">Подробнее</a></button>
+		<div class="promo-scroll">
+		   <img src="img/arrow.png" alt="arrow">
+		</div>
 	  </div>
 	</div>
 
+
 	<div class="advert row">
       <div class="container">
-	  	    <div class="col-3 advert-item advert-item-tools">
-	  	    	<p>Современный надежный шар</p>
+	  	    <div class="col-2 col-offset-1 advert-item">
+	  	      <img class="advert-img-like" src="img/Forma1.png" alt="icon">
+	  	      <p>Современный надежный шар</p>
 	  	    </div>
 
-	  	    <div class="col-3 advert-item advert-item-worker">
-	  	    	<p>Обучение пилотированию</p>
+	  	    <div class="col-2 col-offset-1 advert-item">
+	  	      <img class="advert-img-glasses" src="img/Forma2.png" alt="icon">
+	  	      <p>Обучение пилотированию</p>
 	  	    </div>
 
-	  	    <div class="col-3 advert-item advert-item-border">
-	  	    	<p>Фотосъемка в полете</p>
+	  	    <div class="col-2 col-offset-1 advert-item">
+	  	      <img class="advert-img-camera" src="img/Forma4.png" alt="icon">
+	  	      <p>Фотосъемка в полете</p>
 	  	    </div>
 
-	  	    <div class="col-3 advert-item advert-item-operator">
-	  	    	<p>Потрясающие виды</p>
+	  	    <div class="col-2 col-offset-1 advert-item">
+	  	      <img class="advert-img-monocle" src="img/Forma3.png" alt="icon">
+	  	      <p>Потрясающие виды</p>
 	  	    </div>
       </div>
-	    </div>
+	</div>
 
 	    <div class="about row">
 	      <div class="container">
 	        <div class="col-4">
 	    	   <h2 class="title about-title">Вкратце</h2>
-	    	   <p>Более 5 лет воздухоплавательная команда Нева-Аэро выполняет полёты на воздушных шарах для гостей и жителей Петербурга над одними    из самых живописных мест России – Царским Селом и Павловском, возведенных в Пушкинском районе Санкт-Петербурга. </p>
+	    	   <p>Более 5 лет воздухоплавательная команда Нева-Аэро выполняет полёты на воздушных шарах для гостей и жителей Петербурга над одними    из самых живописных мест России – Царским Селом и Павловском, возведенных в Пушкинском районе Санкт-Петербурга.</p>
 	    	   <p>Мы предлагаем полетать с нами!</p>
 	       </div>
 	       <div class="col-8">
-	       	   <iframe width="854" height="350" src="https://www.youtube.com/embed/QGAMTlI6XxY" frameborder="0" allowfullscreen></iframe>
+	       	   <iframe width="854" height="350" src="https://www.youtube.com/embed/QGAMTlI6XxY" allowfullscreen></iframe>
 	       </div>
 	      </div>
 	    </div>
 
 	    <div class="gallery row">
 	    	<div class="container">
-	    	    <h2 class="title gallery-title">Галерея</h2>
-	    		<a href="#" class="col-3"><img src="" alt=""></a>
-	    		<a href="#" class="col-3"><img src="" alt=""></a>
-	    		<a href="#" class="col-3"><img src="" alt=""></a>
-	    		<a href="#" class="col-3"><img src="" alt=""></a>
+	    	    <h2 class="title gallery-title el-center">Галерея</h2>
+	    		<div class="gallery-item col-3">
+	    		    <img src="img/gallery1.jpg" alt="Photo">
+	    		</div>
+	    		<div class="gallery-item col-3">
+	    		    <img src="img/gallery2.jpg" alt="Photo">
+	    		</div>
+	    		<div class="gallery-item col-3">
+	    		    <img src="img/gallery3.jpg" alt="Photo">
+	    		</div>
+	    		<div class="gallery-item col-3">
+	    		    <img src="img/gallery4.jpg" alt="Photo">
+	    		</div>
 	    	</div>
 	    </div>
 
-	    <div class="How">
-	    	<div class="container"></div>
-	    	<h2 class="title photo-how-title">Как проходят полеты</h2>
+	    <div class="how">
+	    	<div class="container">
+	    	   <h2 class="title photo-how-title el-center">Как проходят полеты</h2>
+	    	</div>
 	    	<div class="photo-how"></div>
+	    	<div class="container">
+	    		
+	    	</div>
 	    </div>
+	    
+
+	   <div class="countdown row">
+		<div class="container">
+			<span class="col-4">До ближайшего полета:</span>
+			<span class="col-1 col-offset-3">2 дня</span>
+			<span class="col-1">16 часов</span>
+			<span class="col-1">8 минут</span>
+			<span class="col-1">14 секунд</span>
+		</div>
+	   </div>
 
 	    <div class="price-count row">
 	    	<div class="container">
-	    	  <div class="col-6">
+	    	  <div class="col-5">
 	    		  <h2 class="title price-count-title">Рассчитать стоимость</h2>
 	    		  <p>Итак, в назначенное время вы приехали на место полета. Команда уже готовит шар к полету - определяется направление ветра, запускаются горелки.</p>
 	    		  <p>Оболочка начинает заполняться теплым воздухом, и аэростат делает первый «вздох». </p>
@@ -96,106 +132,178 @@
 	    	  </div>
 	    	
 
-	    	    <div class="col-6">
+	    	    <div class="col-6 col-offset-1">
 	    	    	<form action="">
 	    	    		<div class="row">
-	    	    			<div class="col-4"><label for="destination">Маршрут полета:</label></div>
-	    	    			<div class="col-8"><input id="destination" type="text" value="Сестрорецк-Парнас"></div>
+	    	    			<div class="col-4">
+	    	    			   <label for="destination">Маршрут полета:</label>
+	    	    			</div>
+	    	    			<div class="col-8">
+	    	    			    <input id="destination" type="text" placeholder="Сестрорецк-Парнас">
+	    	    			</div>
 	    	    		</div>
+
 	    	    		<div class="row">
-	    	    			<div class="col-4"><label for="group-size">Количество человек:</label></div>
-	    	    			<div class="col-8"><input id="group-size" type="text" value="2"></div>
+	    	    			<div class="col-4">
+	    	    			    <label for="group-size">Количество человек:</label>
+	    	    			</div>
+	    	    			<div class="col-8">
+	    	    			    <input id="group-size" type="text" placeholder="2">
+	    	    			</div>
 	    	    		</div>
+
 	    	    		<div class="row">
-	    	    			<div class="col-4"><label for="name">Имя и фамилия:</label></div>
-	    	    			<div class="col-8"><input id="name" type="text" placeholder="Поля Фокус-Покус"></div>
+	    	    			<div class="col-4">
+	    	    			    <label for="name">Имя и фамилия:</label>
+	    	    			</div>
+	    	    			<div class="col-8">
+	    	    			    <input id="name" type="text" placeholder="Поля Фокус-Покус">
+	    	    			</div>
 	    	    		</div>
+
 	    	    		<div class="row">
-	    	    			<div class="col-4"><label for="phone">Телефон:</label></div>
-	    	    			<div class="col-8"><input id="phone" type="text" placeholder="89219734945"></div>
+	    	    			<div class="col-4">
+	    	    			    <label for="phone">Телефон:</label>
+	    	    			</div>
+	    	    			<div class="col-8">
+	    	    			    <input id="phone" type="text" placeholder="89219734945">
+	    	    			</div>
 	    	    		</div>
 	    	    	</form>
 	    	    
 	    	        <div class="row">
-	    	        <div class="total col-6">Стоимость:<span>9000</span></div>
-	    	        <div class="btn btn-go col-6">Полетели!</div>
+	    	        <div class="total col-6">Стоимость:<span> 9000</span>
+	    	        </div>
+	    	        <button class="btn btn-go col-4 col-offset-2">
+	    	            <a href="#">Полетели!</a>
+	    	        </button>
 	    	    </div>
 	        </div>
 	    </div>
+	    </div>
 
-	    <div class="Payment-Faq row">
+	    <div class="payment-faq row">
 	    	<div class="container">
-	    		<div class="payment col-6">
+	    		<div class="payment col-5">
 	    			<h2 class="title payment-title">Способы оплаты</h2>
-	    			<h3>Наличными</h3>
-	    			<ul>Вы можете оплатить услугу,  приехав к нам в офис. Для этого Вам необходимо предупредить об этом:
-	    				<li>по телефону: +7 (812) 640-19-39</li>
-	    				<li>или по почте: mnebyvnebo@gmail.com</li>
-	    			</ul>
-	    			<p>Оплачивая услугу в офисе, Вы получаете все документы подтверждающие оплату.</p>
+	    			<div class="payment-item">
+	    			  <h3>Наличными</h3>
+	    			  <p>Вы можете оплатить услугу,  приехав к нам в офис. Для этого Вам необходимо предупредить об этом:</p>
+	    			  <ul>
+	    			    <li>— по телефону: +7 (812) 640-19-39</li>
+	    			    <li>— или по почте: <a href="#">mnebyvnebo@gmail.com</a></li>
+	    			  </ul>
+	    			  <p>Оплачивая услугу в офисе, Вы получаете все документы подтверждающие оплату.</p>
+	    			</div>
 
-	    			<h3>Курьеру</h3>
-	    			<ul>Вы можете оплатить услугу в любом районе города и в удобное время, вызвав курьера. Для этого Вам необходимо связаться с нашими сотрудниками и сообщить об этом:
-	    				<li>по телефону: +7 (812) 640-19-39</li>
-	    				<li>или по почте: mnebyvnebo@gmail.com</li>
-	    			</ul>
-	    			<p>Оплачивая услугу в офисе, Вы получаете все документы подтверждающие оплату.</p>
+	    			<div class="payment-item">
+	    			  <h3>Курьеру</h3>
+	    			  <p>Вы можете оплатить услугу в любом районе города и в удобное время, вызвав курьера. Для этого Вам необходимо связаться с нашими сотрудниками и сообщить об этом:</p>
+	    			  <ul>
+	    				<li>— по телефону: +7 (812) 640-19-39</li>
+	    				<li>— или по почте: <a href="#">mnebyvnebo@gmail.com</a></li>
+	    			  </ul>
+	    			  <p>Оплачивая услугу в офисе, Вы получаете все документы подтверждающие оплату.</p>
+	    			</div>
 	    		</div>
 
-	    		<div class="faq col-6">
+	    		<div class="faq col-6 col-offset-1">
 	    		    <h2 class="title faq-title">Частые вопросы</h2>
-	    		    <div class="faq-item">
+	    		    <div class="faq-item row">
 	    		    	<h3>Что взять с собой в полет?</h3>
-	    		    	<p>Обязательно возьмите с собой теплую одежду и немного вкусной еды, которую не нужно разогревать, а еще термос горячим чаем. А мы обязательно дадим вам теплые пледы</p>
+	    		    	<p class="col-11 col-offset-1">Обязательно возьмите с собой теплую одежду и немного вкусной еды, которую не нужно разогревать, а еще термос горячим чаем. А мы обязательно дадим вам теплые пледы</p>
 	    		    </div>
 
-	    		    <div class="faq-item">
+	    		    <div class="faq-item row">
 	    		    	<h3>Что если мы улетим не в ту сторону?</h3>
-	    		    	<p>Каждый шар оснащен датчиками GPS, и все его перемещения фиксируются с точностью до метра, потеряться просто не получится. А наши пилоты такой ситуации не допустят вообще</p>
+	    		    	<p class="col-11 col-offset-1">Каждый шар оснащен датчиками GPS, и все его перемещения фиксируются с точностью до метра, потеряться просто не получится. А наши пилоты такой ситуации не допустят вообще</p>
 	    		    </div>
 
-	    		    <div class="faq-item">
+	    		    <div class="faq-item row">
 	    		    	<h3>Что делать, если в полете станет плохо?</h3>
-	    		    	<p>В наших аптечках заготовлены в больших количествах разные лекарства, в том числе средства от укачивания, пакетики, а каждый пилот прошел специальную подготовку по оказанию первой помощи. В экстренной ситуациях сразу же совершим посадку. Мы не дадим вам оказаться в беде</p>
+	    		    	<p class="col-11 col-offset-1">В наших аптечках заготовлены в больших количествах разные лекарства, в том числе средства от укачивания, пакетики, а каждый пилот прошел специальную подготовку по оказанию первой помощи. В экстренной ситуациях сразу же совершим посадку. Мы не дадим вам оказаться в беде</p>
 	    		    </div>
 
-	    		    <div class="faq-item">
+	    		    <div class="faq-item row">
 	    		    	<h3>А полет - это действитель так здорово?</h3>
-	    		    	<p>Это в тысячу раз лучше шоколада</p>
+	    		    	<p class="col-11 col-offset-1">Это в тысячу раз лучше шоколада</p>
 	    		    </div>
 	    	   </div>
+	    </div>
 	    </div>
 
 	    <div class="numbers-advert row">
 	    	<div class="container">
-	    		<div class="number-item col-3">Полетов в год</div>
-	    		<div class="number-item col-3">Средняя дальность в метрах</div>
-	    		<div class="number-item col-3">Воздушных шара</div>
-	    		<div class="number-item col-3">Человек в команде</div>
+	    		<div class="number-item col-2 col-offset-1">
+	    		    <div class="round"><span>700</span></div>
+	    		    <p>Полетов в год</p>
+	    		 </div>
+	    		<div class="number-item col-2 col-offset-1">
+	    		    <div class="round"><span>3000</span></div>
+	    		    <p>Средняя дальность в метрах</p>
+	    		</div>
+	    		<div class="number-item col-2 col-offset-1">
+	    		    <div class="round"><span>3</span></div>
+	    		    <p>Воздушных шара</p>
+	    		</div>
+	    		<div class="number-item col-2 col-offset-1">
+	    		    <div class="round"><span>12</span></div>
+	    		    <p>Человек в команде</p>
+	    		</div>
 	    	</div>
 	    </div>
 
 	    <div class="staff">
 	    	<div class="container">
-	    		<h2 class="title">Команда инструкторов</h2>
+	    		<h2 class="title el-center">Команда инструкторов</h2>
 	    		<div class="row">
-	    		<div class="staff-item col-3">Мария Мариева<span>Старший пилот</span></div>
-	    		<div class="staff-item col-3">Надежда Надеждова<span>Второй пилот</span></div>
-	    		<div class="staff-item col-3">Ирина Иринова<span>Авитадиспетчер</span></div>
-	    		<div class="staff-item col-3">Алена Аленова<span>Авиатехник</span></div>
+	    		  <div class="staff-item col-3">
+	    		    <div class="staff-item-img">
+	    		        <img src="img/glass1.jpg" alt="">
+	    		    </div>
+	    		    <h3>Мария Мариева</h3>
+	    		    <p>Старший пилот</p>
+	    		  </div>
+	    		  <div class="staff-item col-3">
+	    		      <div class="staff-item-img">
+	    		        <img src="img/rowling2.jpg" alt="">
+	    		    </div>
+	    		      <h3>Надежда Надеждова</h3>
+	    		      <p>Второй пилот</p>
+	    		  </div>
+	    		  <div class="staff-item col-3">
+	    		     <div class="staff-item-img">
+	    		        <img src="img/Emily-Blunt3.jpg" alt="">
+	    		    </div>
+	    		      <h3>Ирина Иринова</h3>
+	    		      <p>Авиадиспетчер</p>
+	    		  </div>
+	    		  <div class="staff-item col-3">
+	    		      <div class="staff-item-img">
+	    		        <img src="img/214624802-4.jpg" alt="">
+	    		    </div>
+	    		      <h3>Алена Аленова</h3>
+	    		      <p>Авиатехник</p>
+	    		  </div>
 	    	</div>
 	    	</div>
 	    </div>
 
 	    <div class="reviews">
 	    	<div class="container">
-	    	    <h2 class="title">Отзывы</h2>
+	    	    <h2 class="title el-center">Отзывы</h2>
 	    	    <div class="row">
 	    		<div class="review-item col-6">
+	    		  <div class="review-item-img">
+	    		      <img src="img/Olga.jpg" alt="">
+	    		  </div>
 	    			<cite>Ольга Алексеева</cite>
 	    			<p>Оооо это было чудесно!!! Я не знала что воздушные шары такие огромные. Забавно, большой шар и маленькая корзинка. Полет восхитительный, выше всяких похвал. Мы побывали в самом красивом месте на Земле - в небе, оттуда открываются потрясающие виды.</p>
 	    		</div>
 	    		<div class="review-item col-6">
+	    		  <div class="review-item-img">
+	    		      <img src="img/Artem.jpg" alt="">
+	    		  </div>
 	    			<cite>Артем Рыбкин</cite>
 	    			<p>Жене подарил полет на воздушном шаре. Сделал сюрприз на день рождения. Жена была в восторге, мне и самому понравилось, очень необычные ощущения от полета, хоть не самолет, а летит быстро, маршрут подобрали красивый. Cпасибо вам, нам все понравилось.</p>
 	    		</div>
@@ -205,30 +313,50 @@
 
 	    <div class="address">
 	    	<div class="container">
-	    		<div class="row">
-	    			<div class="col-12">
+	    		<div class="row address-top">
+	    			<div class="col-4 col-offset-4">
+	    			   <div class="address-icon"></div>
 	    			   <h3>Запишите адрес аэропорта</h3>
 	    			   <p>Всеволожск, улица Аэродромная 19а</p>
 	    			</div>
 	    		</div>
 
-	    		<div class="row">
-	    			<div class="col-3">
+
+	    		<div class="row address-bottom">
+	    			<div class="address-bottom-item col-4">
 	    				<h4>Наш офис в Питере:</h4>
-	    				<p>Литейный 14Б <span>12:00 - 19:00</span></p>
-	    				<p>746-67-33</p>
+	    				<p>Литейный 14Б</p> 
+	    				<p>12:00 - 19:00</p>
+	    				<p class="address-bottom-phone"><b>746-67-33</b></p>
 	    		    </div>
-	    			<div class="col-3">
+	    			<div class="address-bottom-item col-4">
 	    				<h4>Наш офис во Всеволожске:</h4>
-	    				<p>Аэродромная 19А<span>12:00 - 19:00</span></p>
-	    				<p>746-67-33</p>
+	    				<p>Аэродромная 19А</p>
+	    				<p>12:00 - 19:00</p>
+	    				<p class="address-bottom-phone"><b>746-67-33</b></p>
 	    		    </div>
-	    			<div class="col-3">
-	    				<a href="#">mnebyvnebo@gmail.com</a>
-	    			</col3>
+	    			<div class="address-bottom-social col-4">
+	    			    <div class="social-mail">
+	    				  <a href="#">mnebyvnebo@gmail.com</a>
+	    			    </div>
+
+	    			    <div class="social-networks">
+	    			    	<a href="https://new.vk.com/irnbru">
+	    			    	   <div class="social-network vk"></div>
+	    			        </a>
+	    			        <a href="#">
+	    			    	   <div class="social-network fb"></div>
+	    			        </a>
+	    			        <a href="#">
+	    			    	   <div class="social-network insta"></div>
+	    			        </a>
+	    			    </div>
+	    			</div>
 	    		</div>
 	    	</div>
 	    </div>
+	   
+
 
 	    <footer class="main-footer">
 	    	<div class="container">
